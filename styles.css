@@ -505,7 +505,7 @@ table td:hover i {
     display: none;
     position: fixed;
     bottom: 20px;
-    right: 50px;
+    right: 10px;
     background-color: #4a90e2;
     color: white;
     border: none;
@@ -526,7 +526,7 @@ table td:hover i {
     #scroll-to-top{
         position: fixed;
         bottom: 20px;
-        right: 60px;
+        right: 63em;
     }
 }
 
@@ -579,4 +579,17 @@ table td:hover i {
         margin-left: -18px;
 
     }
+}
+
+.dark-mode-toggle{
+    cursor: pointer;
+    position: fixed;
+    bottom:1.5em;
+    background-color: transform;
+    right:48px;
+    padding: 10px;
+    background-color: #00d2ff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
 }

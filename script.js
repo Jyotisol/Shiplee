@@ -18,26 +18,16 @@ scrollTopButton.addEventListener('click', () => {
     });
 });
 
-
-// Dark Mode Toggle Functionality
-const darkModeToggle = document.createElement('button');
-darkModeToggle.textContent = 'Dark Mode';
-darkModeToggle.style.position = 'fixed';
-darkModeToggle.style.top = '30px';
-darkModeToggle.style.right = '48px';
-darkModeToggle.style.padding = '10px';
-darkModeToggle.style.backgroundColor = '#00d2ff';
-darkModeToggle.style.color = '#fffff';
-darkModeToggle.style.border = 'none';
-darkModeToggle.style.borderRadius = '5px';
-darkModeToggle.style.cursor = 'pointer';
-
-document.body.appendChild(darkModeToggle);
-
-darkModeToggle.addEventListener('click', () => {
-    // Toggle the dark-mode class on the body element
-    document.body.classList.toggle('dark-mode');
-});
+function myfunction(){
+    let btn = document.body;
+    if(btn.style.backgroundColor === 'black'){
+      btn.style.backgroundColor = 'white';
+      btn.style.color = 'black'
+    }else{
+      btn.style.backgroundColor = 'black'
+      btn.style.color = 'white'
+    }
+  }
 
 
 // Lazy Loading for Images (Optional)
