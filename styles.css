@@ -513,10 +513,6 @@ table td:hover i {
     border-radius: 10%;
     padding: 10px;
     cursor: pointer;
-    -webkit-border-radius: 10%;
-    -moz-border-radius: 10%;
-    -ms-border-radius: 10%;
-    -o-border-radius: 10%;
 }
 
 #scroll-to-top:hover {

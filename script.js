@@ -37,29 +37,7 @@ images.forEach(image => {
     image.removeAttribute('data-src');
 });
 
-// Dark Mode Styling in CSS
-const styleSheet = document.createElement("style");
-styleSheet.type = "text/css";
-styleSheet.innerText = `
-    .dark-mode {
-        background-color: #121212;
-        color: #ffffff;
-    }
 
-    .dark-mode .hero-section {
-        background-image: url('image1-dark.jpg'); /* Optional dark version of the hero image */
-    }
-
-    .dark-mode .cta-button {
-        background: linear-gradient(90deg, #444, #888);
-        color: white; /* Change button text color */
-    }
-
-    .dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode p {
-        /* Change text color in headings and paragraphs */
-    }
-`;
-document.head.appendChild(styleSheet);
 
 
 
