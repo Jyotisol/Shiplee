@@ -197,6 +197,7 @@ body {
         width: 100%;
         margin: 10px 0;
     }
+    
 }
 #franchise-specials {
     padding: 40px 20px;
@@ -344,6 +345,7 @@ body {
     .logo-item {
         width: 100px; /* Smaller size for mobile */
     }
+   
 
 }
 #franchisee-benefits {
@@ -413,10 +415,9 @@ table tr:hover {
     }
     
     #franchisee-benefits h2 {
-        margin-right: 40px;
-          color: #003366;
-          font-size: 2rem;
-          margin-bottom: 20px;
+        margin-left: 61px;
+        width: 162px;
+        margin-bottom: 20px;
       }
       
 }
@@ -526,7 +527,7 @@ table td:hover i {
     #scroll-to-top{
         position: fixed;
         bottom: 20px;
-        right: 63em;
+        right: 11em;
     }
 }
 
@@ -579,6 +580,7 @@ table td:hover i {
         margin-left: -18px;
 
     }
+
 }
 
 .dark-mode-toggle{
